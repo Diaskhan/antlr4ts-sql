@@ -7,4 +7,33 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="grammars\mysql\MultiQueryMySQLParser.g4" />
+    <None Remove="grammars\mysql\MySQLLexer.g4" />
+    <None Remove="grammars\mysql\MySQLParser.g4" />
+    <None Remove="grammars\plpgsql\PLpgSQLLexer.g4" />
+    <None Remove="grammars\plpgsql\PLpgSQLParser.g4" />
+    <None Remove="grammars\plsql\PlSqlLexer.g4" />
+    <None Remove="grammars\plsql\PlSqlParser.g4" />
+    <None Remove="grammars\tsql\TSqlLexer.g4" />
+    <None Remove="grammars\tsql\TSqlParser.g4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Antlr4 Include="grammars\mysql\MultiQueryMySQLParser.g4" />
+    <Antlr4 Include="grammars\mysql\MySQLLexer.g4" />
+    <Antlr4 Include="grammars\mysql\MySQLParser.g4" />
+    <Antlr4 Include="grammars\plpgsql\PLpgSQLLexer.g4" />
+    <Antlr4 Include="grammars\plpgsql\PLpgSQLParser.g4" />
+    <Antlr4 Include="grammars\plsql\PlSqlLexer.g4" />
+    <Antlr4 Include="grammars\plsql\PlSqlParser.g4" />
+    <Antlr4 Include="grammars\tsql\TSqlLexer.g4" />
+    <Antlr4 Include="grammars\tsql\TSqlParser.g4" />
+  </ItemGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Antlr4.Runtime.Standard" Version="4.13.1" />
+		<PackageReference Include="Antlr4BuildTasks" Version="12.10.0" PrivateAssets="all" />
+	</ItemGroup>
+
 </Project>

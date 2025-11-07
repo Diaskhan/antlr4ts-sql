@@ -7,6 +7,7 @@ options {
 
 @header {package cz.startnet.utils.pgdiff.parsers.antlr;}
 
+
 // to start parsing, it is recommended to use only rules with EOF
 // this eliminates the ambiguous parsing options and speeds up the process
 /******* Start symbols *******/

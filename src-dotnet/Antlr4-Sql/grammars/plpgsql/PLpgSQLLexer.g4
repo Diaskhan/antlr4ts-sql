@@ -17,12 +17,12 @@
  */
 
 lexer grammar PLpgSQLLexer;
-
+/*
 @header {
 package cz.startnet.utils.pgdiff.parsers.antlr;
 import java.util.ArrayDeque;
 import java.util.Deque;
-}
+}*/
 
 @members {
 /* This field stores the tags which are used to detect the end of a dollar-quoted string literal.
